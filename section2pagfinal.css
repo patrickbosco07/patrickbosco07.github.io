@@ -1,0 +1,7 @@
+.section2pagfinal {
+    display: flex;
+    height: 50px;
+    background-color: #FFFAF0;
+    align-items: center;
+    border-top: 10px solid black;
+}

@@ -1,0 +1,23 @@
+.wrapper2-pagfinal {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    background-color: #FFFAF0;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 20px solid black;
+}
+.wrapper2-pagfinal .textosection2pagfinal {
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 150;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wrapper2-pagfinal .csstabela {
+    padding-top: 20px;
+}

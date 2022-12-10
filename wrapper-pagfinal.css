@@ -1,0 +1,32 @@
+.wrapper-pagfinal {
+    display: flex;
+    flex-direction: column;
+    height: 345px;
+    background-color: #FFFAF0;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 35px;
+}
+.wrapper-pagfinal .textopagfinal {
+    color: black;
+    font-family: 'Press Start 2P', sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 15px;
+    line-height: 40px;
+}
+.wrapper-pagfinal .aqui {
+    color: #00CED1;
+    font-family: 'Press Start 2P', sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 15px;
+    line-height: 40px;
+    background-color: #FFFAF0;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+}

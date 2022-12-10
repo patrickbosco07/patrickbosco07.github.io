@@ -1,0 +1,12 @@
+.sectionpagfinal {
+    display: flex;
+    flex-direction: column;
+    height: 585px;
+    background-color: #FFFAF0;
+    align-items: center;
+    padding-top: 20px;
+    background-image: url(https://images.pexels.com/photos/6631427/pexels-photo-6631427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: repeat;
+    background-size: 530px;
+    color: #FFFAF0;
+}

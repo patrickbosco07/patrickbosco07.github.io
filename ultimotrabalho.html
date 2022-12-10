@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Dino Safe</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="estilos(isa).css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="buttonfinal.css">
+        <style>
+            main{
+                margin-left: 30%;
+                font-family: "Fira code", Helvetica, Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img class="h1header" src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/31755.png">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"placeholder="Pesquise aqui">
+            </div>
+            <nav>
+                <a href="#Skills">Perfil</a>
+                <a href="#Projetos">Carrinho</a>
+                <a href="#Sobre">Menu</a>
+                <button>Início</button>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Dados cadastrais
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                                    <input type="email" style="width: 50%;" class="form-control" id="exampleFormControlInput1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                                    <input type="email" style="width: 48%;" class="form-control" id="exampleFormControlInput1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Forma de pagamento
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                        Cartão de débito/crédito
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                        Boleto
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                        Pix
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Carteira
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Número do Cartão</label>
+                                        <input type="email" style="width: 35%;" class="form-control" id="exampleFormControlInput1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Data de validade</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Código de segurança</label>
+                                        <input type="email" class="form-control" style="width: 15%;" id="exampleFormControlInput1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Endereço de entrega
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">CEP</label>
+                                    <input type="email" class="form-control" style="width: 13%;" id="exampleFormControlInput1">
+                                </div>
+                                <select class="form-select" aria-label="Default select example" style="width: 29%;">
+                                    <option selected>Estado</option>
+                                    <option value="1">Santa Catarina</option>
+                                    <option value="2">Paraná</option>
+                                    <option value="3">Rio Grande do Sul</option>
+                                </select>
+                                <select class="form-select" aria-label="Default select example"style="width: 30%;">
+                                    <option selected>Cidade</option>
+                                    <option value="1">Joinville</option>
+                                    <option value="2">Curitiba</option>
+                                    <option value="3">Porto Alegre</option>
+                                </select>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Endereço</label>
+                                    <input type="email" class="form-control" style="width: 50%;"id="exampleFormControlInput1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <a href="patrickbosco07.github.io/Paginal-Final.html" class="buttonfinal">Finalizar compra</a>
+            </div>
+        </main>
+        <footer>
+            <section class="realfooter">
+                <h3>Dúvidas? Entre em contato conosco: 0800-765</h3>
+                <h3>Direitos Reservados © 2022</h3>
+            </section>
+        </footer>
+    </body>
+</html>
