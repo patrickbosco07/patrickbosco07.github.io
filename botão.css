@@ -1,0 +1,8 @@
+.botao {
+    background-color: #DDA0DD;
+    width: 400px;
+    height: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P';
+}

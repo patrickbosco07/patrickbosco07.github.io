@@ -1,5 +1,5 @@
 .caixa {
-    display: flex;
+    display: inline-block;
     border: 5px solid black;
     text-align: center;
     width: 400px;
