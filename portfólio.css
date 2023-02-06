@@ -1,3 +1,51 @@
 nav {
     text-align: right;
 }
+.aside {
+    height: 700px;
+    background-image: url(imgs/imgbanner/CapaLinkedln.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid #4C5B84;
+}
+.Banner {
+    position: absolute;
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    background-color: #4C5B84;
+    text-align: center;
+    box-shadow: 10px 10px 0px #000000;
+}
+.Banner-internal1 {
+    position: absolute;
+    width: 560px;
+    height: 40px;
+    top: 38px;
+    bottom: 106px;
+    right: 47px;
+    left: 35px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-shadow: 4px 4px 0px #000000;
+}
+.Banner-internal2 {
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    top: 114px;
+    bottom: 40px;
+    right: 181px;
+    left: 176px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-shadow: 4px 4px 0px #000000;
+}

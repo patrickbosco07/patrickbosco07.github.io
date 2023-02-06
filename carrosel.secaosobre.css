@@ -1,0 +1,125 @@
+.main-carrosel {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: 415px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.main-carrosel::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 38.2px;
+    display: block;
+    border: 3px dashed #4C5B84;
+    width: 100%;
+    margin-top: 8.5px;
+}
+.main-carrosel::after {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    top: 45px;
+    width: calc(100% - 180px);
+    display: block;
+    border: 5px solid #4C5B84;
+    background-color: #4C5B84;
+}
+.main-carrosel .main-button-secaosobre {
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(-140%);
+}
+.main-button-secaosobre {
+    width: 50px;
+    height: 50px;
+    background-color: #4C5B84;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px #fff;
+}
+.main-button-secaosobre.-left {
+    left: 15px;
+}
+button {
+    border: none;
+    font-family: inherit;
+}
+.main-button-secaosobre::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid white;
+}
+.main-button-secaosobre.-left::before {
+    transform: rotate(180deg) translateX(12px);
+}
+.main-carrosel .action {
+    display: none;
+}
+.main-button-secaosobre.-right {
+    right: 15px;
+}
+.main-button-secaosobre.-right::before {
+    transform: translateX(5px);
+}
+.main-carrosel .items {
+    width: 100%;
+    overflow: hidden;
+}
+.main-carrosel .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
+}
+.main-carrosel .logo-sobre {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.main-carrosel .logo-sobre::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed #4C5B84;
+    transform:rotate(90deg) translateX(-290%);
+    bottom: 140px;
+}
+.main-carrosel .title2020 {
+    color: #4C5B84;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+}
+.main-carrosel .logo-sobre .containerimagem {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 230px;
+    border: 5px solid #4C5B84;
+    padding: 0px;
+    background-color: #fff;
+}
+.main-carrosel .logo-sobre .containerimagem.-thought {
+    height: 230px;
+}
+.main-carrosel .logo-sobre .containerimagem.-aicom {
+    height: 224px;
+    width: 225px;
+}
+.main-carrosel .logo-sobre .containerimagem.-britania {
+    background-color: #fff;
+}
+

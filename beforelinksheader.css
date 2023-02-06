@@ -1,6 +1,6 @@
-a::before {
+.beforelinksheader::before {
     content: "";
-    background-color: #FFFAF0;
+    background-color: #4C5B84;
     width: 10px;
     height: 10px;
     margin-right: 10px;

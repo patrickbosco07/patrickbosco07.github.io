@@ -1,0 +1,38 @@
+.form {
+    background-color: #3A4042;
+    height: 910px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.form .titleform {
+    color: #fff;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.form .main-label {
+    color: #fff;
+    font-family: 'Fira Code';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+}
+.form .main-input {
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 8px solid #000000;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.form .main-input.-mensagem {
+    height: 318px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
