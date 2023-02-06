@@ -1,0 +1,23 @@
+.wrapper-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 152px;
+    margin-bottom: 150px;
+}
+.wrapper-projects .main-projects1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background-color: #4C5B84;
+    box-shadow: 10px 10px #fff;
+}
+.wrapper-projects .main-projects1.-violet {
+    background-color: #4B0082;
+}
+.wrapper-projects .main-projects1.-salmon {
+    background-color: #F5DEB3;
+}
+
