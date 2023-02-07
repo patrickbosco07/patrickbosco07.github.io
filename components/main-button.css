@@ -1,0 +1,42 @@
+.main-button {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: none;
+    margin-right: 32px;
+}
+.main-button.-login {
+    font-weight: 600;
+    color: #000000;
+    width: 60px;
+    padding: 0px;
+}
+.main-button.-register {
+    background-color: #AF5EFF;
+    color: white;
+    text-align: center;
+    padding: 7px 16px;
+    width: 102px;
+    border-radius: 4px;
+    transition: transform 100ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.main-button.main-button.-register:hover {
+    transform: scale(1.1);
+}
+.main-button.-buttonofsearch {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    background-color: #AF5EFF;
+    border-radius: 4px;
+    color: white;
+    left: 393px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}

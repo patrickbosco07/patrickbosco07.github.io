@@ -1,0 +1,24 @@
+.paiboxsearch {
+    display: flex;
+    box-sizing: border-box;
+    width: 490px;
+    height: 56px;
+    border: 1px solid rgba(175, 94, 255, 0.35);
+    border-radius: 8px;
+}
+.searchbox .boxsearch {
+    display: flex;
+    box-sizing: border-box;
+    width: 234px;
+    margin-left: 12px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 147px;
+}
+.searchbox .imgboxsearch {
+    box-sizing: border-box;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+}

@@ -1,0 +1,33 @@
+.Students {
+    position: absolute;
+    width: 747px;
+    height: 584px;
+    right: 26px;
+    top: 105px;
+}
+.Students .reversepicture {
+    position: absolute;
+    width: 378px;
+    height: 458px;
+    right: 320px;
+    top: 73px;
+    left: 49px;
+    bottom: 53px;
+}
+.Students .complementpicture {
+    position: absolute;
+    width: 501.88px;
+    height: 505px;
+    left: 138px;
+    right: 108.6px;
+    top: 45px;
+    bottom: 34px;
+}
+.Students .circlegreen {
+    width: 501px;
+    height: 501px;
+    margin-top: 45px;
+    margin-left: 184px;
+    background-color: #74ED42;
+    border-radius: 50%;
+}

@@ -1,0 +1,18 @@
+.main-nav {
+    display: flex;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 24px;
+    height: 44px;
+    align-items: center;
+}
+.main-nav .logo-nav {
+    width: 44px;
+    height: 44px;
+    left: 211px;
+    border-radius: 8px solid;
+}
+.main-nav .box-buttons {
+    display: flex;
+    margin-right: 201px;
+}
