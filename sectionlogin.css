@@ -4,7 +4,8 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 150px;
-  border-radius: 5px solid black;
+  border: 5px solid black;
+  border-radius: 5px;
   box-sizing: border-box;
 }
 h1 {
