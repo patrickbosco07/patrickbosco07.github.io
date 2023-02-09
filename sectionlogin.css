@@ -50,6 +50,7 @@ h2 {
   transition: 100ms transform ease-in-out;
   box-sizing: border-box;
   margin-bottom: 8px;
+  text-align: center;
 }
 .sectionlogin .wrapper-button:hover {
   transform: scale(1.1);
