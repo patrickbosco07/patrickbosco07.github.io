@@ -1,7 +1,9 @@
 .section2pagfinal {
+    color: black;
     display: flex;
     height: 50px;
     background-color: #FFFAF0;
     align-items: center;
     border-top: 10px solid black;
+    padding-top: 15px;
 }
