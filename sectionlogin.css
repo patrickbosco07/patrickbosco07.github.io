@@ -16,4 +16,40 @@ h1 {
 h2 {
   color: #4B4545;
 }
+.sectionlogin .wrapper-label {
+  display: block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.sectionlogin .wrapper-box {
+  display: block;
+  height: 25px;
+  width: 150px;
+  margin-bottom: 20px;
+  border: 8px solid black;
+  font-size: 15px;
+}  
+.sectionlogin .wrapper-button {
+  display:block;
+  height: 25px;
+  width: 50px;
+  border: 5px solid black;
+  border-radius: 5px;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+  transition: 100ms transform ease-in-out;
+}
+.sectionlogin .wrapper-button:hover {
+  transform: scale(1.1);
+}  
+  
+  
+  
 
