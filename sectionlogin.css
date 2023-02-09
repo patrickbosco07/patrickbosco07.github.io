@@ -29,8 +29,10 @@ h2 {
   height: 25px;
   width: 150px;
   margin-bottom: 20px;
-  border: 8px solid black;
+  border: 4px solid black;
   font-size: 15px;
+  marging-right: auto;
+  margin-left: auto;
 }  
 .sectionlogin .wrapper-button {
   height: 25px;
@@ -43,6 +45,7 @@ h2 {
   line-height: 24px;
   opacity: 0.6;
   transition: 100ms transform ease-in-out;
+  box-sizing: border-box;
 }
 .sectionlogin .wrapper-button:hover {
   transform: scale(1.1);
