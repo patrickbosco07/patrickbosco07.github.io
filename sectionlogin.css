@@ -36,6 +36,8 @@ h2 {
 }
 .sectionlogin .divcheckbox {
   display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }  
 .sectionlogin .wrapper-button {
   height: 25px;
