@@ -8,8 +8,12 @@
   display: none;
 }
 .firstball.-variacao1 {
+  left: 667px;
+  top: 105px;
   background: radial-gradient(50% 50% at 50% 50%, #DDA0DD 0%, rgba(255, 255, 255, 0) 100%);
 }
 .firstball.-variacao2 {
+  right: 26px;
+  top: 342px;
   background: radial-gradient(50% 50% at 70% 50%, #DDA0DD 0%, rgba(255, 255, 255, 0) 100%);
 }  
