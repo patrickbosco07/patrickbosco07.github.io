@@ -8,6 +8,7 @@
   border: 5px solid black;
   border-radius: 5px;
   box-sizing: border-box;
+  text-align: center;
 }
 h1 {
   color: #4B4545;
