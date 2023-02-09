@@ -6,6 +6,7 @@
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 25px;
     border-top: 20px solid black;
 }
 .wrapper2-pagfinal .textosection2pagfinal {
@@ -19,5 +20,4 @@
     padding-right: 15px;
 }
 .wrapper2-pagfinal .csstabela {
-    margin-top: 20px;
 }
