@@ -3,4 +3,7 @@
   height: 60px;
   width: 60px;
   background: radial-gradient(50% 50% at 30% 50%, #DDA0DD 0%, rgba(255, 255, 255, 0) 100%);
+}
+.spanforpage {
+  display: none;
 }  
