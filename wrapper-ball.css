@@ -1,7 +1,7 @@
 .firstball {
   position: absolute;
-  height: 60px;
-  width: 60px;
+  height: 360px;
+  width: 360px;
   background: radial-gradient(50% 50% at 40% 50%, #DDA0DD 0%, rgba(255, 255, 255, 0) 100%);
 }
 .spanforpage {
