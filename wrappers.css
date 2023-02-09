@@ -1,0 +1,16 @@
+.wrapper-label {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.wrapper-box {
+  height: 25px;
+  width: 150px;
+  margin-bottom: 20px;
+  border: 8px solid black;
+  font-size: 15px;
+}  
