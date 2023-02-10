@@ -1,4 +1,52 @@
 .sectioncourses {
     height: 1029px;
     background: rgba(0, 14, 142, 0.04);
+    padding-top: 52px;
+}
+.sectioncourses .wrapper-courses {
+    display: inline-flex;
+    flex-direction: column;
+    height: 171px;
+    width: 175px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-left: 123px;
+    margin-right: 23px;
+}
+.sectioncourses .wrapper-imgscourses {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 48px;
+    width: 38px;
+    background-color: #5FC137;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.sectioncourses .wrapper-courses.-variacaowleft {
+    margin-left: 0;
+}
+.sectioncourses .wrapper-imgscourses.-variacaobiollogoy {
+    background-color: #AF5EFF;
+    width: 32px;
+}
+.sectioncourses .wrapper-imgscourses.-variacaoBUSINESS {
+    background-color: #FF5E5E;
+    width: 32px;
+}
+.sectioncourses .wrapper-imgscourses.-variacaostatistics {
+    background-color: #60A5ED;
+    width: 32px;
+}
+.sectioncourses .wrapper-imgscourses.-variacaofood {
+    background-color: #F98865;
+}
+.sectioncourses .wrapper-imgscourses.-variacaoscience {
+    background-color: #32AA9D;
+    width: 32px;
 }

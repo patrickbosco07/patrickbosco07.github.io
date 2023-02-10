@@ -36,3 +36,17 @@
     line-height: 28px;
     color: #000000;
 }
+.title-nav.-variacao5 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-left: 135px;
+}
+.title-nav.-variacao6 {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
