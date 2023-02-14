@@ -45,6 +45,7 @@ h2 {
   margin-left: auto;
 }  
 .sectionlogin .wrapper-button {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   height: 25px;
