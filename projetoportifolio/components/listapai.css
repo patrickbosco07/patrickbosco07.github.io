@@ -1,0 +1,11 @@
+.listapai {
+    width: 960px;
+    height: 354px;
+    top: 1039px;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 235px;
+    color: #fff;
+    font-family: 'Press Start 2P', sans-serif;
+}

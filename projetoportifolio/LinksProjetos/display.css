@@ -1,0 +1,17 @@
+.example {
+    color: #FFF;
+}
+
+.example-item {
+    width: 33.333%;
+    height: 150px;
+}
+.example-item_first {
+    background-color: green;
+}
+.example-item_second {
+    background-color: blue;
+}
+.example-item_third {
+    background-color: red;
+}
