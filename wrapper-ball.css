@@ -2,6 +2,8 @@
   position: absolute;
   height: 360px;
   width: 360px;
+  top: 5px;
+  left: -70px;
   background: radial-gradient(50% 50% at 40% 50%, #DDA0DD 0%, rgba(255, 255, 255, 0) 100%);
 }
 .spanforpage {
@@ -10,7 +12,7 @@
 
 }
 .firstball.-variacao2 {
-  right: 26px;
+  left: 1068px;
   top: 342px;
-  background: radial-gradient(50% 50% at 70% 50%, #DDA0DD 0%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #DDA0DD 0%, rgba(255, 255, 255, 0) 100%);
 }  
