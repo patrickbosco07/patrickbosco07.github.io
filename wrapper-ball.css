@@ -12,6 +12,7 @@
 
 }
 .firstball.-variacaoball2 {
+  position: absolute;
   left: 1068px;
   top: 342px;
   background: radial-gradient(50% 50% at 50% 50%, #DDA0DD 0%, rgba(255, 255, 255, 0) 100%);
