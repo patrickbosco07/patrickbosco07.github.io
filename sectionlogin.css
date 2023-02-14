@@ -25,6 +25,9 @@ h2 {
   opacity: 0.6;
   margin-bottom: 10px;
 }
+.sectionlogin .wrapper-label.-variacao {
+  margin-bottom: 0;
+}
 .sectionlogin .wrapper-box {
   height: 25px;
   width: 100%;
