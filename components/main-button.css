@@ -11,10 +11,17 @@
     margin-right: 32px;
 }
 .main-button.-login {
+    display: flex;
+    background-color: #fff;
+    color: black;
+    width: 70px;
+    height: 26px;
     font-weight: 600;
-    color: #000000;
-    width: 60px;
-    padding: 0px;
+    text-align: center;
+    line-height: 26px;
+}
+.spanlogin {
+    width: 55px;
 }
 .main-button.-register {
     background-color: #AF5EFF;

@@ -1,0 +1,48 @@
+.sectioncarousel {
+    display: flex;
+    height: 410px;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 91px;
+    margin-right: 181px;
+}
+.sectioncarousel .items {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.sectioncarousel .wrapper-items {
+    height: 354px;
+    width: 274;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.sectioncarousel .wrapper-imgs-carousel {
+    height: 204px;
+    width: 258px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+}
+.sectioncarousel .wrapper-avaliacao {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 73px;
+    height: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+}
+.sectioncarousel .wrapper-star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #F2994A;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
