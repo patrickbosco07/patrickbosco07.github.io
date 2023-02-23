@@ -1,0 +1,23 @@
+.sectionsobre {
+    background-color: black;
+    height: 783px;
+    color: aliceblue;
+    padding-top: 50px;
+}
+.sectionsobre .textosobre {
+    line-height: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 20px;
+    font-family: "Fira code", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+.sectionsobre .titlesobre {
+    color: #fff;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}

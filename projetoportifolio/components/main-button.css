@@ -1,0 +1,44 @@
+.main-button {
+    display: inline-block;
+    background-color: #4C5B84;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: "Fira code", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    box-shadow: 5px 5px #4C5B84;
+    cursor: pointer;
+    transition: transform 100ms cubic-bezier(0.42, 0, 0.51, 2.64);
+}
+.main-button:hover {
+    transform: scale(1.08);
+}
+.main-button.-botao2 {
+    box-shadow: 5px 5px #000000;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 181px;
+    top: 418px;
+}
+.main-button.-botao3 {
+    box-shadow: 5px 5px #000000;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 463px;
+    top: 418px;
+}
+.main-button.-botao4 {
+    width: 100%;
+    background-color: #828282;
+    box-shadow: 5px 5px #000000;
+    padding: 0px;
+    transition: transform 100ms cubic-bezier(0.42, 0, 0.51, 2.64);
+}
+.main-button.main-button.-botao4:hover {
+    transform: scale(1.03);
+}

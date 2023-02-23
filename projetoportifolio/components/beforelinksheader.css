@@ -1,0 +1,7 @@
+.beforelinksheader::before {
+    content: "";
+    background-color: #4C5B84;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
