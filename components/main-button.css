@@ -47,3 +47,18 @@
     margin-right: 8px;
     margin-bottom: 8px;
 }
+.main-button.-pricecourse {
+    width: 74px;
+    height: 38px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #AF5EFF;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 12px;
+    margin-right: 0px;
+}

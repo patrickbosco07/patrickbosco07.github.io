@@ -1,0 +1,12 @@
+.wrapper-items .wrapper-avaliacao {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 73px;
+    height: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+}

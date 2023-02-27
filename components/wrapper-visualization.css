@@ -1,0 +1,34 @@
+.wrapper-visualization {
+    display: flex;
+    Width: 241px;
+    Height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-visualization .img-eye-visualization {
+    display: flex;
+    width: 17px;
+    height: 11px;
+    margin-right: 8px;
+    margin-left: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.wrapper-visualization .textvisualization {
+    display: flex;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 81px;
+    height: 20px;
+    width: 44px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.wrapper-visualization .textvisualization.-numeroflectures {
+    width: 71px;
+    margin-right: 0px;
+}
