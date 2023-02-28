@@ -1,15 +1,21 @@
 .sectioncarousel {
     display: flex;
-    height: 410px;
+    height: 435px;
     position: relative;
     justify-content: space-between;
     margin-left: 91px;
     margin-right: 181px;
 }
-.sectioncarousel .items {
-    display: flex;
+.sectioncarousel .items-carousel {
     width: 100%;
     overflow: hidden;
+}
+.sectioncarousel .gallery {
+    display: flex;
+    transition: transform 600ms ease-in-out;
+}
+.sectioncarousel .gallery:hover {
+    transform: translateX(1247.200px);
 }
 .sectioncarousel .wrapper-items {
     box-sizing: border-box;
@@ -91,22 +97,22 @@
     color: #000000;
     margin-bottom: 8px;
 }
-.sectioncarousel .botao-carrosel {
+.sectioncarousel .botao-carrossel-left {
     position: absolute;
     height: 32px;
     width: 32px;
     left: 530px;
     top: 406px;
-    margin-right: 16pxs;
+    margin-right: 16px;
     border: 1px solid black;
     border-radius: 20px;
     opacity: 0.4;
     cursor: pointer;
 }
-.sectioncarousel .botao-carrosel.-n2 {
+.sectioncarousel .botao-carrossel-left.-right {
     left: 591px;
 }
-.sectioncarousel .botao-carrosel::before {
+.sectioncarousel .botao-carrossel-left::before {
     content: '';
     display: block;
     box-sizing: border-box;
@@ -116,7 +122,7 @@
     border-left: 10px solid black;
     transform: rotate(180deg) translateX(2px);
 }
-.sectioncarousel .botao-carrosel.-n2::before {
+.sectioncarousel .botao-carrossel-left.-right::before {
     content: '';
     display: block;
     box-sizing: border-box;
