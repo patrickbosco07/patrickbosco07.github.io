@@ -14,10 +14,9 @@
     display: flex;
     transition: transform 600ms ease-in-out;
 }
-.sectioncarousel .gallery:hover {
-    transform: translateX(1247.200px);
-}
+
 .sectioncarousel .wrapper-items {
+    position: relative;
     box-sizing: border-box;
     height: 374px;
     width: 274px;
@@ -26,26 +25,8 @@
     background-color: #FFFFFF;
     margin-right: 24px;
 }
-.sectioncarousel .wrapper-avaliacao {
-    position: absolute;
-    left: 16px;
-    top: 16px;
-    width: 73px;
-    height: 30px;
-    background-color: #FFFFFF;
-    display: flex;
-    border: none;
-    border-radius: 8px;
-    align-items: center;
-}
-.sectioncarousel .wrapper-avaliacao.-opcao2 {
-    left: 314px;
-}
-.sectioncarousel .wrapper-avaliacao.-opcao3 {
-    left: 612px;
-}
-.sectioncarousel .wrapper-avaliacao.-opcao4 {
-    left: 910px;
+.sectioncarousel .wrapper-items:hover {
+    transform: scale(1.02);
 }
 .sectioncarousel .wrapper-imgs-carousel {
     height: 204px;
