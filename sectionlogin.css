@@ -69,9 +69,11 @@ h2 {
 }
 .sectionlogin .wrapper-button.-variacao {
   width: 355px;
+  background-color: none;
 }
 .sectionlogin .wrapper-button.-variacao2 {
   width: 165px;
+  background-color: none:
 }
 .sectionlogin .wrapper-button:hover {
   transform: scale(1.1);
