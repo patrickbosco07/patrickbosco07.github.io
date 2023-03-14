@@ -1,3 +1,6 @@
+.body {
+  background-color: #9370DB;
+}
 .sectionlogin {
   display: flex;
   flex-direction: column;
@@ -62,6 +65,7 @@ h2 {
   margin-bottom: 8px;
   align-content: center;
   justify-content: center;
+  background-color: #00FA9A;
 }
 .sectionlogin .wrapper-button.-variacao {
   width: 355px;
