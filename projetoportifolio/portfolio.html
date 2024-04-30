@@ -206,6 +206,19 @@
         </footer>
 
         <script src="JS/Components/main-carousel.js"></script>
+        <script>
+        document.getElementById('secao_04').addEventListener('submit', function(event) {
+          event.preventDefault();
+        
+          const formData = new FormData(event.target);
+          const dados = {
+            nome: formData.get('name'),
+            email: formData.get('email'),
+            mensagem: formData.get('mensagem')
+        };
+
+        console.log(dados);
+            
     </body>
 
 
